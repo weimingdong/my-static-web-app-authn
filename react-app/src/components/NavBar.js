@@ -57,8 +57,9 @@ const NavBar = (props) => {
           <p>{userInfo && userInfo.userDetails}</p>
           <p>{userInfo && userInfo.identityProvider}</p>
         </div>
+       </div> 
      )}  
- </div>
+  </div>
   );
 };
 
